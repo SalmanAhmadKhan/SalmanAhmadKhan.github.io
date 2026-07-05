@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salman A. Khan</title>
+<meta name="description" content="Salman A. Khan — Research Director, Crime and Education Lab, University of Chicago. Economist working on education, evidence-based policy, and occasional writing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Public+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --night:#1d2733;
+  --slate:#4a5a6a;
+  --mist:#eef1f2;
+  --card:#ffffff;
+  --line:#d8dee2;
+  --sage:#2e7d5b;
+  --sage-soft:#e3f0e9;
+  --amber:#c07a2d;
+  --mono:'Spline Sans Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--mist);color:var(--night);font-family:'Public Sans',sans-serif;font-size:17px;line-height:1.7}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px}
+
+header{padding:84px 0 40px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--sage);margin-bottom:18px}
+h1{font-family:'Lora',serif;font-weight:600;font-size:clamp(38px,6vw,54px);line-height:1.1}
+.role{font-family:'Lora',serif;font-style:italic;font-size:clamp(17px,2.4vw,21px);color:var(--slate);margin-top:12px}
+
+.bio{padding:8px 0 34px;border-bottom:1px solid var(--line)}
+.bio p{margin-bottom:1.2em;max-width:38em}
+
+section{padding:38px 0 8px}
+.section-label{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:18px}
+
+.cards{display:grid;gap:14px}
+a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;text-decoration:none;color:var(--night);transition:border-color .15s, transform .15s}
+a.card:hover{border-color:var(--sage);transform:translateY(-1px)}
+.card-kicker{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin-bottom:6px}
+.card-title{font-family:'Lora',serif;font-weight:600;font-size:20px;line-height:1.35}
+.card-desc{font-size:14.5px;color:var(--slate);margin-top:6px;line-height:1.55}
+.card-arrow{font-family:var(--mono);font-size:13px;color:var(--sage);margin-top:10px}
+
+.links{display:flex;flex-wrap:wrap;gap:10px;padding:8px 0 0}
+a.pill{font-family:var(--mono);font-size:13px;color:var(--night);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 16px;text-decoration:none;transition:border-color .15s}
+a.pill:hover{border-color:var(--sage);color:var(--sage)}
+
+footer{padding:56px 0 60px;font-family:var(--mono);font-size:12px;color:var(--slate)}
+
+@media (max-width:640px){header{padding:56px 0 32px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Economist · Chicago</div>
+    <h1>Salman A. Khan</h1>
+    <p class="role">Research Director, Crime and Education Lab — University of Chicago</p>
+  </div>
+</header>
+
+<div class="bio">
+  <div class="wrap">
+    <p>I lead large-scale randomized evaluations of programs that accelerate student learning, expand career pathways, and reduce justice-system involvement. My work asks how schools and community programs can change students' life trajectories, and turns the answers into policy through partnerships with school districts, government agencies, and nonprofits.</p>
+    <p>This site is home to my occasional writing — side projects and data explorations outside the day job.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="section-label">Writing</div>
+    <div class="cards">
+      <a class="card" href="/halal-investing/">
+        <div class="card-kicker">Personal finance · Interactive</div>
+        <div class="card-title">You don't need the perfect fund. You need a first month.</div>
+        <div class="card-desc">A data-backed nudge for hesitant first-time investors, told through halal ETFs: guess-first quizzes, two years of real fund data, and a cost-of-inaction calculator.</div>
+        <div class="card-arrow">Read →</div>
+      </a>
+      <a class="card" href="/halal-investing/halal-etf-correlation-explorer.html">
+        <div class="card-kicker">Data deep-dive · Interactive</div>
+        <div class="card-title">One trade, seven tickers</div>
+        <div class="card-desc">Which halal ETFs actually diversify a portfolio? An interactive correlation explorer across seven funds and two years of daily returns.</div>
+        <div class="card-arrow">Explore →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-label">Elsewhere</div>
+    <div class="links">
+      <a class="pill" href="https://www.sal-khan.com/">Academic site</a>
+      <a class="pill" href="https://www.sal-khan.com/research">Research</a>
+      <a class="pill" href="https://www.linkedin.com/in/salman-khan-phd/">LinkedIn</a>
+      <a class="pill" href="http://papers.sal-khan.com/CV_Khan_UL.pdf">CV</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© Salman A. Khan · Built by hand, no tracking</div>
+</footer>
+
+</body>
+</html>
